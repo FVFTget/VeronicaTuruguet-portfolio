@@ -1,10 +1,12 @@
-{
+
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap);
+*{
     margin: 0;
     padding: 0;
-    box-sizeing: border-box;
+    box-sizing: border-box;
 }
 body {
-    background-color: blueviolet;
+    background-color: #531E97;
     font-family: 'Lato', sans-serif;
 }
 a {
@@ -14,4 +16,25 @@ a {
     width: 90%;
     max-width: 1200px;
     margin: auto;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vw;
+    background-color: #2C2727;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand span {
+    color: aqua;
+}
+.menu li {
+    
+}
+.menu a {
+    color: #fff
 }

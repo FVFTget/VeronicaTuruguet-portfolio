@@ -1,0 +1,17 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizeing: border-box;
+}
+body {
+    background-color: blueviolet;
+    font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}

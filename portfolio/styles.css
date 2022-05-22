@@ -1,40 +1,224 @@
-
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap);
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-color: #531E97;
+    background-color: #fff;
     font-family: 'Lato', sans-serif;
 }
-a {
-    text-decoration: none;
-}
-.contenedor {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-.wrapper{
-    width: 100vw;
-    height: 100vw;
-    background-color: #2C2727;
-    color: #fff;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 2em;
+    background-color: #2C2727;
+}
+.navbar h2{
+    position:relative;
+    margin-left: 100px;
+    margin-top: 20px;
+    align-items:center;
+    color: #fff;
 }
 
-.brand span {
-    color: aqua;
+.pencil{
+    float: right;
+    margin-right: 10px;
 }
-.menu li {
+
+.boton {
+    display: inline-flex;
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    color: #5D3F83;
+    font-family: Lato;
+
+}
+.login {
+    position: relative;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    
+       
+}
+.button h3{
+    color: #fff;
+}
+
+.logopersonal{
+    position: absolute;
+    align-items: left;
+    float: left;
+}
+.logoLinkedin{
+    position: relative; right: 0;
+    margin-left: 1200px;
+    align-items: right;
+    margin-bottom: 10px;
+   
+}
+
+ /****************************************************/
+
+ .banner{
+     background-color: #fff;
+ }
+
+
+ .img-banner{
+     object-fit: contain;
+     height: 800px;
+     width: 800px;
+     
+   
+ }
+       
+
+.circular--square  {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    margin-right: auto;
+    display: block;
     
 }
-.menu a {
-    color: #fff
+
+.txt-banner{
+    color: #5D3F83;
+    display: inline-block;
+    text-align: center;
+    
+    
+    box-sizing: border-box;
+    color: #5D3F83;
+    font-size: xx-large;
+    
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+/*****************************************************/
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    background-color:#C4C4C4;
+}
+
+.titulo-about{
+    
+    position: relative;
+    margin-right: 30px;
+    grid-column: 3/5;
+    padding: 2em;
+  
+    
+}
+.about-info{
+
+    grid-column: 4/5;
+    padding: 3em;
+    
+}
+
+.about-info h2 {
+    font-size: 2em;
+    color: #5D3F83;
+    margin-left: auto;
+}
+
+/************************************************************/
+.experience{
+    background-color: #9B8EB7;  
+    margin: 0 auto;
+    width: 100vw;  
+    height: 30vw;
+}
+.experience h3{
+    font-size: 2em;
+    color: #fff;
+}
+
+/*****************************************************/
+
+.education {
+    background-color: #C4C4C4;  
+    margin: 0 auto;
+    width: 100vw;  
+    height: 30vw;
+}
+.education h3{
+    font-size: 2em;
+    color: #000;
+}
+
+/*****************************************************/
+.skills {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+/*
+.skills {
+    margin-top: 200px;
+        display:flex;
+        position:relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: conic-gradient(
+            #8f80a2 60deg, 
+            #fff 0 235deg, 
+            #5D3F83 0);
+}
+*/
+
+
+
+/*************************************************************/
+.proyects{
+    background-color: #9B8EB7;
+}
+
+.contact {
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    width: 100vw;  
+    height: 10vw;
+}
+.contact h4{
+    font-size: 2rem ;
+    color: #fff;
+}
+.contact h5{
+    font-size:medium;
+    color: #2c2727;
+}
+/******************************************************/
+.pencil {
+size-adjust: 60px;
+}
+
+/**************************************************/
+
+.foot {
+    background-color: #2C2727;
+    margin: 0 auto;
+    width: 100vw;  
+    height: 5vw;
+}
+
+.foot p {
+    font-size: x-small;
+    color: #fff;
+    margin:auto;
+    position:center; 
+
 }

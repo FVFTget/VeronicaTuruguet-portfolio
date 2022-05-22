@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Veronica Turuguet Portfolio</title>
+        <!--link bootstrap CSS-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <section class="wrapper">
+            <header>
+                <nav class="navbar">
+                    <div class="marcapersonal">
+                        <img src="./img-portfolio/Frame 2.svg" alt="logo">
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+
+        <section class="home">
+            <i class="pencil">
+                &#9998;
+            </i>
+                <div class="txt-home">
+                    <div style="text-align:left;"> 
+                        <h1> Hi! I'm a <span> UX designer </span>& Developer</h1>
+                    </div>              
+                </div>
+                <img class="circular--square" src="./img-portfolio/Photo-profile.jpeg" alt="Veronica Turuget picture">
+        </section>        
+    
+        
+        <div class="about"> 
+            <img src="./img-portfolio/pc.jpeg" alt="computadoras">
+    
+            <div class="about-info">
+                <i class="pencil">
+                    &#9998;
+                </i>
+                <div style="text-align:left;">
+                    <h2> About me</h2>
+                    <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aspernatur ducimus distinctio eaque nobis consequuntur, earum ea molestiae sapiente rem consectetur quis maxime aperiam et magni omnis voluptates cupiditate atque.<br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem cupiditate iste cumque hic nemo impedit, incidunt aperiam odit provident? Quisquam, iure officia? Cumque amet, dolorem animi facere rerum neque saepe?<br>
+                    </p> 
+                    <a download href="#">
+                        <button class="download-cv">Download CV</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="work">
+            <i class="pencil">
+                &#9998;
+            </i>
+            <h2>What do I do?</h2>
+            <div style="text-align:center;">
+                <h3>UX Writing</h3>
+                <h4>UX Design</h4>
+                <h4>Web Develop</h4>
+            </div>
+        </div>
+    
+        
+        <div class="contact">
+            <i class="pencil">
+                &#9998;
+            </i>
+            <h4>Say hello!</h4>
+            <h5>email me at fuentestgt@gmail.com</h5>
+            <h5>LinkedIn</h5>
+        </div>
+    
+        <div class="foot">
+            <p>
+            Todos los derechos reservados - 2022
+            </p>
+        </div>
+<!--bootstrap JS. -->
+<script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
